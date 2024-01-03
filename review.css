@@ -1,0 +1,29 @@
+ table
+{
+    align-items: center;
+    background-color: grey;
+    border-radius: 25px;
+    text-align: center;
+    width: 500px;
+    height: 400px;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 50px;
+}
+table:hover
+{
+    background-color: red;
+    transition: 1s;
+    opacity: 90%;
+}
+button
+{
+    width: 90px;
+    height: 40px;
+}
+button:hover
+{
+    background-color: red;
+    transition: 1s;
+    opacity: 90%;
+}

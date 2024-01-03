@@ -1,0 +1,44 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review</title>
+</head>
+<link rel="stylesheet" href="review.css">
+<script src="review.js"></script>
+<body>
+    <h1>Review Form</h1>
+    <table>
+        <th>
+            <p>Q1."Are you satisfied with our service?"</p>
+        </th>
+        <td>
+                <label for="yes">Yes</label>
+                <input type="radio" name="a" id="yes1" class="answer" value="yes">
+                <label for="no">No</label>
+                <input type="radio" name="a" id="no1" class="answer" value="no">
+        </td>
+
+        <th>
+                <p>Q2."Do you find our website user-friendly?"</p>
+        </th>
+            <td>
+                <label for="yes">Yes</label>
+                <input type="radio" name="b" id="yes2" class="answer" value="yes">
+                <label for="no">No</label>
+                <input type="radio" name="b" id="no2" class="answer" value="no">
+            </td>
+            <th>
+            <p>Q3."Would you recommend us to others?"</p>
+            </th>
+            <td>
+                <label for="yes">Yes</label>
+                <input type="radio" name="c" id="yes3" class="answer" value="yes">
+                <label for="no">No</label>
+                <input type="radio" name="c" id="no3" class="answer" value="no">
+            </td>
+    </table>
+    <button onclick="check()" id="submit">Submit</button>
+</body>
+</html>

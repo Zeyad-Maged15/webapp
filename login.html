@@ -1,0 +1,56 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<link rel="stylesheet" href="login.css">
+<body>
+    <h1>Login Form</h1>
+<form>
+    <label for="usernamelog">Username</label>
+    <input type="text" id="usernamelog"><br><br>
+    <label for="passwordlog">Password</label>
+    <input type="password" id="passwordlog"><br><br>
+    <button type="button" onclick="validlog()">Login</button><br><br>
+    <a href="#forgetpass">Forget Password</a><br><br>
+    <a href="#sign">Sign-Up</a><br>
+</form><br><br><br>
+
+
+ <h1>Sign-Up Form</h1>
+<form id="sign" name="sign">
+    <label for="username">Username</label>
+    <input type="text" id="username"><br><br>
+
+    <label for="password">Password</label>
+    <input type="password" id="password"><br><br>
+
+    <label for="age">Age</label>
+    <input type="number" id="age"><br><br>
+
+    <label for="mgender">Male</label>
+    <input type="radio" id="mgender" name="s">
+    <label for="fgender">Female</label>
+    <input type="radio" id="fgender" name="s"><br><br>
+
+    <label for="phonenumber">Phone Number</label>
+    <input type="tel" id="phonenumber"><br><br>
+
+    <button type="button" onclick="check()">Submit</button><br><br>
+</form><br><br><br>
+
+
+<h1>Forget Password Form</h1>
+<form id="forgetpass" name="forgetpass">
+    <label for="usernamefor">Username</label>
+    <input type="text" id="usernamefor"><br><br>
+    <label for="newpasswordfor">New Password</label>
+    <input type="password" id="newpasswordfor"><br><br>
+    <button type="button" onclick="forget()">Update</button>
+</form>
+
+</body>
+<script src="login.js"></script>
+</html>
